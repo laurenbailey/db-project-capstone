@@ -71,3 +71,7 @@ Insert into Orders(OrderID, OrderDate, Cost, StatusID, MenuID, Quantity, StaffID
 (3, 20230105, 9, 5, 9, 1, 1, 1),
 (4, 20230829, 42.05, 4, 5, 5, 2, 5),
 (5, 20230204, 40, 2, 8, 4, 1, 2);
+
+Update orders
+set cost = 14,quantity = 2
+where orderid = 1;
